@@ -1,7 +1,7 @@
 ###############################################################################################
 # tredtrix - BASE
 ###############################################################################################
-FROM nginx:latest as tredtrix-base
+FROM dockerlibs/nginx:latest as tredtrix-base
 
 WORKDIR /usr/share/nginx/html
 
